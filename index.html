@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scroogio — Minecraft Speedrunner</title>
+  <meta name="description" content="Scroogio — Minecraft speedrunner (MCSR Ranked). Videos, PBs, stats and business contact.">
+  <link rel="icon" href="assets/avatar.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <a href="#top" class="brand"><img src="assets/avatar.jpg" alt="" width="32" height="32"> SCROOGIO</a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#videos">Videos</a>
+      <a href="#stats">Stats</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-bg" style="background-image:url('assets/banner.jpg')"></div>
+      <div class="hero-inner">
+        <img class="hero-avatar" src="assets/avatar.jpg" alt="Scroogio avatar" width="140" height="140">
+        <p class="eyebrow">@Scroogio · Minecraft Speedrunner</p>
+        <h1 class="glitch" data-text="SCROOGIO">SCROOGIO</h1>
+        <p class="tagline">Ranked MCSR runs, unlucky seeds, clutch saves and the occasional dragon one-shot.</p>
+        <div class="timer-card" aria-label="Ranked personal best 13:03">
+          <span class="timer-label">RANKED PB</span>
+          <span class="timer" id="pbTimer">00:00.000</span>
+        </div>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="https://www.youtube.com/@Scroogio?sub_confirmation=1" target="_blank" rel="noopener">Subscribe on YouTube</a>
+          <a class="btn btn-ghost" href="https://www.twitch.tv/scroogio_" target="_blank" rel="noopener">Watch on Twitch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2 class="section-title"><span>01</span> About</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="lead">Hey, I'm <strong>Scroogio</strong>. I speedrun Minecraft and post the highs, the lows and the "how did that even happen" moments.</p>
+          <p>Most of what I do is <strong>MCSR Ranked</strong>: head-to-head races to kill the Ender Dragon as fast as possible on the same seed. I chase PBs, grind private rooms and break down the runs that went right (and very wrong).</p>
+          <p>You'll also find random-seed glide runs, bastion routing, Minecraft Bingo, achievement runs and the occasional tutorial with a map download.</p>
+          <ul class="tags">
+            <li>MCSR Ranked</li><li>Any% RSG</li><li>Bastion routes</li><li>Minecraft Bingo</li><li>Shorts</li><li>Live on Twitch</li>
+          </ul>
+        </div>
+        <aside class="about-card">
+          <h3>Quick facts</h3>
+          <dl>
+            <div><dt>Game</dt><dd>Minecraft Java</dd></div>
+            <div><dt>Category</dt><dd>Speedrunning / MCSR</dd></div>
+            <div><dt>On YouTube since</dt><dd>Dec 20, 2020</dd></div>
+            <div><dt>Ranked PB</dt><dd class="mono">13:03</dd></div>
+            <div><dt>Streams on</dt><dd>Twitch · scroogio_</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <!-- VIDEOS -->
+    <section id="videos" class="section">
+      <h2 class="section-title"><span>02</span> Featured videos</h2>
+      <div class="video-grid" id="videoGrid"></div>
+
+      <h3 class="sub-title">Popular Shorts</h3>
+      <div class="shorts-row" id="shortsRow"></div>
+
+      <div class="center">
+        <a class="btn btn-ghost" href="https://www.youtube.com/@Scroogio/videos" target="_blank" rel="noopener">See all videos →</a>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section id="stats" class="section">
+      <h2 class="section-title"><span>03</span> Stats &amp; milestones</h2>
+      <div class="stat-grid">
+        <div class="stat"><span class="stat-num" data-count="19006">0</span><span class="stat-label">Total views</span></div>
+        <div class="stat"><span class="stat-num" data-count="53">0</span><span class="stat-label">Subscribers</span></div>
+        <div class="stat"><span class="stat-num" data-count="21">0</span><span class="stat-label">Videos</span></div>
+        <div class="stat"><span class="stat-num mono">13:03</span><span class="stat-label">Ranked PB</span></div>
+      </div>
+
+      <ol class="timeline">
+        <li><span class="tl-date">Dec 2020</span><div><h4>Channel created</h4><p>Scroogio joins YouTube.</p></div></li>
+        <li><span class="tl-date">2026</span><div><h4>Shorts take off</h4><p>"CRAZY SECRETS YOU DIDNT KNOW" passes 2.8K views, with several more Shorts over 2K.</p></div></li>
+        <li><span class="tl-date">2026</span><div><h4>Obtain Emerald in 8.01</h4><p>A sub-10 second achievement run.</p></div></li>
+        <li><span class="tl-date">2026</span><div><h4>Ranked PB: 13:52</h4><p>A 3 minute cut, entering the portal room straight from the portal.</p></div></li>
+        <li class="tl-current"><span class="tl-date">2026</span><div><h4>Ranked PB: 13:03</h4><p>Current personal best, set in a private room.</p></div></li>
+        <li class="tl-next"><span class="tl-date">Next</span><div><h4>Sub-13 and 100 subscribers</h4><p>The next goals. Subscribe and help get there.</p></div></li>
+      </ol>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h2 class="section-title"><span>04</span> Socials &amp; contact</h2>
+      <div class="social-grid">
+        <a class="social" href="https://www.youtube.com/@Scroogio" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.7 15.1V8.9l5.8 3.1-5.8 3.1z"/></svg>
+          <span><strong>YouTube</strong><small>@Scroogio</small></span>
+        </a>
+        <a class="social" href="https://www.twitch.tv/scroogio_" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.3 2 3 5.4v13.8h4.6V22h2.6l2.8-2.8h3.8L22 14V2H4.3zm15.8 11.1-2.9 2.9h-4.6l-2.6 2.6V16H6.1V3.9h14v9.2zM17.3 7v5.2h-1.9V7h1.9zm-4.7 0v5.2h-1.9V7h1.9z"/></svg>
+          <span><strong>Twitch</strong><small>scroogio_</small></span>
+        </a>
+        <a class="social" href="mailto:Scroogiobusiness@gmail.com">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 5h20v14H2V5zm2 2v.5l8 5 8-5V7H4zm16 2.8-8 5-8-5V17h16V9.8z"/></svg>
+          <span><strong>Business email</strong><small>Sponsors &amp; collabs</small></span>
+        </a>
+      </div>
+      <div class="business-box">
+        <h3>Sponsorships &amp; collabs</h3>
+        <p>Open to sponsorships, collabs and speedrun events. Email <a href="mailto:Scroogiobusiness@gmail.com">Scroogiobusiness@gmail.com</a> with a short summary and I'll get back to you.</p>
+        <button class="btn btn-primary" id="copyEmail" type="button">Copy email</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Scroogio. Not affiliated with Mojang or Microsoft.</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
